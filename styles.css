@@ -1,0 +1,87 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.container-fluid h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    animation: fadeIn 1.5s ease-in; /* Adds fade-in animation */
+}
+
+.container-fluid h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+}
+
+p {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.6; /* Improves readability */
+    margin: 10px 0;
+}
+
+.container-fluid hr {
+    border: 1px solid white; /* Keeps the wheat color for contrast */
+    margin: 20px 0; /* Adds spacing around horizontal lines */
+}
+
+a {
+    color: wheat; /* Makes links stand out */
+    text-decoration: none; /* Removes underline for a cleaner look */
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 2em !important;
+    padding: 5px 10px;
+    text-decoration: underline !important;
+    text-decoration-color: rgb(167, 167, 167) !important; 
+    text-decoration-thickness: 1px !important; 
+    text-underline-offset: 5px !important; 
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgb(194, 194, 194) !important;
+    text-decoration: underline; 
+}
+
+img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    border: 2px solid rgb(170, 170, 170); /* Adds a border for better visibility */
+    border-radius: 5px; /* Slightly rounds the corners */
+}
+
+.container-fluid {
+    background-color: rgb(41, 39, 39);
+}
+
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.icons {
+    width: 75px !important;
+    height: 75px !important;
+    margin: 10px;
+    border: none; 
+    display: inline-block;
+    animation: fadeIn 1.5s ease-in; 
+}
