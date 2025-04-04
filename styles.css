@@ -110,10 +110,12 @@ img {
 
 .navbar-toggler-icon {
     color: white; /* Sets the color of the icon to white */
-    background-image: url('images/Burger icon.png'); /* Remove the default icon */
+    background-image: url('Images/Burger\ Icon.png'); /* Remove the default icon */
     background-color: transparent; /* Ensure no background color */
     width: 75px; /* Adjust width to fit your image */
     height: 75px; /* Adjust height to fit your image */
+    background-size: cover; /* Ensures the image covers the button */
+    background-repeat: no-repeat; /* Prevents repeating the image */
 }
 
 
