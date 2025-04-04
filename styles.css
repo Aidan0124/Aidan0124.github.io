@@ -3,14 +3,30 @@ body {
     padding: 20px;
 }
 
+h1 {
+    font-size: 2.5em; /* Increases the size of the main heading */
+    color: white; /* Sets the color to white for better contrast */
+    text-align: center; /* Centers the heading */
+    padding: 5px 10px; 
+    margin: 0 0; /* Adds space around the heading */
+}
+
+h2 {
+    font-size: 2em; /* Increases the size of the subheading */
+    color: white; /* Sets the color to white for better contrast */
+    text-align: center; /* Centers the subheading */
+    margin-bottom: 15px; /* Adds space below the subheading */
+}
+
 .container-fluid h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 5px;
+    font: 25px;
     animation: fadeIn 1.5s ease-in; /* Adds fade-in animation */
 }
 
 .container-fluid h2 {
+    font-size: 25px;
     color: white;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 5px;
@@ -29,28 +45,24 @@ p {
 }
 
 a {
-    color: wheat; /* Makes links stand out */
+    color: rgb(123, 183, 239); /* Makes links stand out */
     text-decoration: none; /* Removes underline for a cleaner look */
 }
 
 a:hover {
-    color: lightgray;
+    color: rgb(47, 113, 206);
     text-decoration: underline;
 }
 
 .nav-link {
-    color: white !important;
-    font-size: 2em !important;
-    padding: 5px 10px;
-    text-decoration: underline !important;
-    text-decoration-color: rgb(167, 167, 167) !important; 
-    text-decoration-thickness: 1px !important; 
-    text-underline-offset: 5px !important; 
+    color: white;
+    font-size: 2em;
+    padding: 5px 10px; 
     transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: rgb(194, 194, 194) !important;
+    color: rgb(194, 194, 194);
     text-decoration: underline; 
 }
 
@@ -76,12 +88,35 @@ img {
     }
 }
 
-
 .icons {
-    width: 75px !important;
-    height: 75px !important;
+    width: 75px;
+    height: 75px;
     margin: 10px;
     border: none; 
     display: inline-block;
     animation: fadeIn 1.5s ease-in; 
 }
+
+/* Nav Bat */
+.navbar {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    border: none; /* Removes the border */
+    border-radius: 5px; /* Rounds the corners */
+    color: #ffffff00;
+}
+
+.navbar-toggler-icon {
+    color: white; /* Sets the color of the icon to white */
+    background-image: url('images/Burger icon.png'); /* Remove the default icon */
+    background-color: transparent; /* Ensure no background color */
+    width: 75px; /* Adjust width to fit your image */
+    height: 75px; /* Adjust height to fit your image */
+
+}
+
+
+
+
