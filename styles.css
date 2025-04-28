@@ -12,10 +12,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2em; /* Increases the size of the subheading */
+    font-size: 2.5em; /* Increases the size of the subheading */
     color: white; /* Sets the color to white for better contrast */
     text-align: center; /* Centers the subheading */
-    margin-bottom: 15px; /* Adds space below the subheading */
+    margin-bottom: 5px; /* Adds space below the subheading */
 }
 
 .container-fluid h1 {
@@ -33,10 +33,10 @@ h2 {
 }
 
 p {
-    color: white;
-    font-size: 1.2em;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
     line-height: 1.6; /* Improves readability */
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .container-fluid hr {
@@ -45,12 +45,12 @@ p {
 }
 
 a {
-    color: rgb(123, 183, 239); /* Makes links stand out */
+    color: rgb(143, 185, 224); /* Makes links stand out */
     text-decoration: none; /* Removes underline for a cleaner look */
 }
 
 a:hover {
-    color: rgb(47, 113, 206);
+    color: rgb(88, 143, 220);
     text-decoration: underline;
 }
 
@@ -66,11 +66,22 @@ a:hover {
     text-decoration: underline; 
 }
 
+.navbar-toggler {
+    padding: none !important; /* Removes padding */
+}
+
 img {
-    max-width: 100%; /* Ensures images are responsive */
+    max-width: 70%; /* Ensures images are responsive */
     height: auto; /* Maintains aspect ratio */
     border: 2px solid rgb(170, 170, 170); /* Adds a border for better visibility */
     border-radius: 5px; /* Slightly rounds the corners */
+}
+.img-fluid {
+    max-width: 70%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    border: 2px solid rgb(170, 170, 170); /* Adds a border for better visibility */
+    border-radius: 5px; /* Slightly rounds the corners */
+    margin: 5px 0; /* Adds spacing around images */
 }
 
 .container-fluid {
